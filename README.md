@@ -10,13 +10,13 @@
 2.beego的教程很丰富，不仅有文字教程，还有视频教程发布在网上，让人学习起来感到轻松一些<br>
 3.bee工具包使得项目的框架创建变得十分快捷<br>
 
-### 安装beego，bee的方法以及项目的快速创建讲解：
+#### 安装beego，bee的方法以及项目的快速创建讲解：
 先在#GOPATH/src路径下于命令行中输入go get github.com/astaxie/beego从而安装beego<br>
 再在#GOPATH/src路径下于命令行中输入go get github.com/beego/bee从而安装开发工具bee<br>
 之后在#GOPATH/src路径下于命令行中输入bee new webgo就可创建有完整框架的名为webgo的项目<br>
 
-### 使用curl来测试 curl -v http://loacalhost:9090/  和  curl -v http://loacalhost:9090/user/zhang
+#### 使用curl来测试 curl -v http://loacalhost:9090/  和  curl -v http://loacalhost:9090/user/zhang
 结果如下：
 
-### ab测试（指令为：ab -n 1000 -c 100 http://localhost:9090/user/zhang）
+#### ab测试（指令为：ab -n 1000 -c 100 http://localhost:9090/user/zhang）
 结果如下：
