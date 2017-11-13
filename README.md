@@ -14,9 +14,13 @@
 先在#GOPATH/src路径下于命令行中输入go get github.com/astaxie/beego从而安装beego<br>
 再在#GOPATH/src路径下于命令行中输入go get github.com/beego/bee从而安装开发工具bee<br>
 之后在#GOPATH/src路径下于命令行中输入bee new webgo就可创建有完整框架的名为webgo的项目<br>
-
 #### 使用curl来测试 curl -v http://loacalhost:9090/  和  curl -v http://loacalhost:9090/user/zhang
-结果如下：
-
+结果如下：<br>
+![image](https://github.com/Tendernesszh/Cloudgo/blob/master/webgo/curl%E6%B5%8B%E8%AF%95.png)
 #### ab测试（指令为：ab -n 1000 -c 100 http://localhost:9090/user/zhang）
-结果如下：
+其中-n代表执行的请求数量，-c代表并发请求个数。<br>
+
+结果如下：<br>
+![image](https://github.com/Tendernesszh/Cloudgo/blob/master/webgo/%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95.png)
+
+可以看到在56ms内所有的请求被处理完成，且没有失败请求。
